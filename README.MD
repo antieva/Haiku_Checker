@@ -1,16 +1,12 @@
-#Starter
+#Haiku_Checker
 
 Setup instructions:
 
 NPM must be installed.
 
 * git clone
-* cd to Starter (or new project name root directory)
+* cd to Haiku_Checker
 * npm install
-
-* in webpack.config.js change name of Title from 'Starter' to your new project name
-* in package.json change "name": "Starter" to your new project name
-* change the name of the starter.js file and a few spots in the main.js file
 
 
 npm run start
