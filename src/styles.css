@@ -1,3 +1,24 @@
 body{
   background-color: white;
 }
+
+h1, h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.heading {
+  height: 300px;
+  padding-top: 8%;
+  font-family: Charcoal, fantasy;
+  color: #e2dad7;
+  background-color: black;
+}
+
+#first-line {
+  margin-top: 5%;
+}
+
+#output {
+  display: none;
+}
