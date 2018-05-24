@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Starter</title>
+    <title>Haiku Checker</title>
   </head>
   <body>
-    <h1> This is a header</h1>
+    <div class="container heading">
+      <h1>Haiku Checker</h1>
+      <h3>find out if your poem is a true haiku</h3>
+    </div>
+    <div class="container">
+      <form id="haiku-form">
+        <div class="form-group">
+          <input id="first-line" class="form-control" name="first-line" placeholder="FirstLine" type="text">
+        </div>
+        <div class="form-group">
+          <input id="second-line" class="form-control" name="second-line" placeholder="SecondLine" type="text">
+        </div>
+        <div class="form-group">
+          <input id="third-line" class="form-control" name="third-line" placeholder="ThirdLine" type="text">
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <br>
+      <div id="output" class="jumbotron">
+        <p><span id="checker-output"></span></p>
+      </div>
+    </div>
   </body>
 </html>
